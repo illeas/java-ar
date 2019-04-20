@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="334.0" prefWidth="414.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.102" fx:controller="wordcountgui.FXMLDocumentController">
+   <children>
+      <Label layoutX="41.0" layoutY="47.0" text="File Name" />
+      <TextField fx:id="fname" layoutX="119.0" layoutY="43.0" prefHeight="25.0" prefWidth="260.0" />
+      <Label layoutX="41.0" layoutY="99.0" text="Result" />
+      <TextArea fx:id="result" layoutX="119.0" layoutY="99.0" prefHeight="146.0" prefWidth="260.0" />
+      <Button fx:id="bcal" layoutX="86.0" layoutY="275.0" mnemonicParsing="false" onAction="#countWord" text="Calculate" />
+      <Button fx:id="bclear" layoutX="281.0" layoutY="275.0" mnemonicParsing="false" onAction="#clearAll" text="Clear" />
+   </children>
+</AnchorPane>

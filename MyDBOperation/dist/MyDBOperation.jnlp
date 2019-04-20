@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MyDBOperation.jnlp">
+  <information>
+    <title>MyDBOperation</title>
+    <vendor>SEU</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MyDBOperation.jar" size="3516" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="mydboperation.MyDBOperation"  name="MyDBOperation" />
+  <update check="always"/>
+</jnlp>
